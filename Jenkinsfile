@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'ssh://git@bitbucket.org:company/repo.git'
+                git branch: 'master', url: 'https://github.com/akhileshmusuku/SpringMicroservice.git'
             }
         }
         stage ('Build') {
