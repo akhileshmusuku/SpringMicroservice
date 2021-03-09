@@ -1,4 +1,3 @@
-
 FROM openjdk:11-jre-slim
 RUN mkdir -p /usr/local/product
 ENV JAVA_OPTS=$JAVA_OPTS
