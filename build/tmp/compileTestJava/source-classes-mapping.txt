@@ -1,0 +1,2 @@
+com/myretail/product/ProductApplicationTest.java
+ com.myretail.product.ProductApplicationTest

@@ -1,0 +1,50 @@
+2021-01-28 01:44:06.068  INFO 95169 --- [main] com.myretail.product.ProductApplication  : Starting ProductApplication using Java 11.0.2 on Akhileshs-MacBook-Pro.local with PID 95169 (/Users/akhileshmusuku/Downloads/Target/product/build/libs/product-0.0.1-SNAPSHOT.jar started by akhileshmusuku in /Users/akhileshmusuku/Downloads/Target/product/build/libs)
+2021-01-28 01:44:06.080 DEBUG 95169 --- [main] com.myretail.product.ProductApplication  : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-28 01:44:06.081  INFO 95169 --- [main] com.myretail.product.ProductApplication  : No active profile set, falling back to default profiles: default
+2021-01-28 01:44:08.389  INFO 95169 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-28 01:44:08.783  INFO 95169 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 387 ms. Found 1 MongoDB repository interfaces.
+2021-01-28 01:44:09.221  INFO 95169 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0eafe9d6-fd23-3ee4-b31c-f81c60595a20
+2021-01-28 01:44:10.342  INFO 95169 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8079 (http)
+2021-01-28 01:44:10.363  INFO 95169 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-28 01:44:10.363  INFO 95169 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-28 01:44:10.460  INFO 95169 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-28 01:44:10.460  INFO 95169 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4238 ms
+2021-01-28 01:44:14.694  INFO 95169 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-28 01:44:14.845  INFO 95169 --- [cluster-rtt-ClusterId{value='60126b4efdd0ce74f73cac18', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:762}] to localhost:27017
+2021-01-28 01:44:14.846  INFO 95169 --- [cluster-ClusterId{value='60126b4efdd0ce74f73cac18', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:761}] to localhost:27017
+2021-01-28 01:44:14.847  INFO 95169 --- [cluster-ClusterId{value='60126b4efdd0ce74f73cac18', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=33970013}
+2021-01-28 01:44:14.980  WARN 95169 --- [main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-01-28 01:44:15.219  WARN 95169 --- [main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-01-28 01:44:16.595  INFO 95169 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-28 01:44:19.608  INFO 95169 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-01-28 01:44:19.900  WARN 95169 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-01-28 01:44:20.231  INFO 95169 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-01-28 01:44:20.508  INFO 95169 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-01-28 01:44:20.521  INFO 95169 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-01-28 01:44:20.640  INFO 95169 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-01-28 01:44:20.640  INFO 95169 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-01-28 01:44:20.640  INFO 95169 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-01-28 01:44:20.640  INFO 95169 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-01-28 01:44:20.640  INFO 95169 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-01-28 01:44:20.640  INFO 95169 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-01-28 01:44:20.640  INFO 95169 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-01-28 01:44:20.961  INFO 95169 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-01-28 01:44:20.966  INFO 95169 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-01-28 01:44:20.972  INFO 95169 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-28 01:44:20.980  INFO 95169 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1611819860978 with initial instances count: 2
+2021-01-28 01:44:21.000  INFO 95169 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MYRETAIL-SERVICE with eureka with status UP
+2021-01-28 01:44:21.005  INFO 95169 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1611819861005, current=UP, previous=STARTING]
+2021-01-28 01:44:21.020  INFO 95169 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8079: registering service...
+2021-01-28 01:44:21.062  INFO 95169 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8079 (http) with context path ''
+2021-01-28 01:44:21.063  INFO 95169 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8079
+2021-01-28 01:44:21.136  INFO 95169 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8079 - registration status: 204
+2021-01-28 01:44:21.144  INFO 95169 --- [main] com.myretail.product.ProductApplication  : Started ProductApplication in 16.356 seconds (JVM running for 17.593)
+2021-01-28 01:48:30.966  INFO 95169 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MYRETAIL-SERVICE with eureka with status DOWN
+2021-01-28 01:48:30.969  INFO 95169 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1611820110969, current=DOWN, previous=UP]
+2021-01-28 01:48:30.969  INFO 95169 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8079: registering service...
+2021-01-28 01:48:30.991  INFO 95169 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8079 - registration status: 204
+2021-01-28 01:48:31.167  INFO 95169 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-28 01:48:31.224  INFO 95169 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-01-28 01:48:34.230  INFO 95169 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-01-28 01:48:34.272  INFO 95169 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8079 - deregister  status: 200
+2021-01-28 01:48:34.285  INFO 95169 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
