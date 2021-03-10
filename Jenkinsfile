@@ -4,14 +4,9 @@ pipeline {
         pollSCM('* * * * *')
     }
     stages {
-        stage('Checkout') {
-            steps {
-                git branch: 'master', url: 'https://github.com/akhileshmusuku/SpringMicroservice.git'
-            }
-        }
         stage ('Build') {
             steps {
-                sh './gradlew assemble'
+                sh './gradlew clean build'
             }
         }
          stage ('Test') {
