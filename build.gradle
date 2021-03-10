@@ -33,6 +33,12 @@ dependencies {
 	testCompile 'junit:junit'
 	
 }
+test {
+    reports {
+        junitXml.enabled = true
+        html.enabled = true
+    }               
+}
 
 dependencyManagement {
 	imports {
